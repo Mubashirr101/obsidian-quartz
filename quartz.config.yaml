@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Mubashir's Vault of Knowledge
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -212,11 +212,11 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Website: https://www.mubashirshaikh.com
+        GitHub: https://github.com/Mubashirr101
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

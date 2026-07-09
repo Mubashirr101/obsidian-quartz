@@ -1,2 +1,2 @@
-## All my bsidian notes
-open -> [notes.mubashirshaikh.com](http://notes.mubashirshaikh.com/)
+## All my Obsidian notes
+open -> [notes.mubashirshaikh.com](https://notes.mubashirshaikh.com)
