@@ -1,3 +1,5 @@
+unlisted: true
+
 formulas:
   last_edited: file.mtime.relative()
 properties:
