@@ -8,7 +8,6 @@ aka **LORE**
 This is where I keep what I've learned , as a data scientist, programmer, and engineer. Written down before it fades. Some of it is polished. Most of it isn't. All of it is real: things I've built, broken, debugged, and eventually understood.
 
 Think of this less like documentation and more like a working memory, made public.
-Yeah something like that
 
 ## What's in here
 

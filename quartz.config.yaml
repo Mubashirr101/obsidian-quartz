@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Mubashir's Vault of Knowledge
+  pageTitle: LORE
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -155,7 +155,7 @@ plugins:
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 20
       group: toolbar
       groupOptions:
