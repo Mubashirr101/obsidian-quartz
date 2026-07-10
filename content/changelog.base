@@ -1,0 +1,22 @@
+formulas:
+  last_edited: file.mtime.relative()
+properties:
+  file.name:
+    displayName: Note
+  formula.last_edited:
+    displayName: Last edited
+views:
+  - type: table
+    name: Changelog
+    filters:
+      and:
+        - file.ext == "md"
+        - file.name != "index"
+        - file.name != "changelog"
+    order:
+      - file.name
+      - formula.last_edited
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 100
