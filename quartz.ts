@@ -4,7 +4,10 @@ import * as ExternalPlugin from "./.quartz/plugins"
 const hiddenFromExplorer = ["changelog-data", "assets", "tags"]
 
 ExternalPlugin.Explorer({
-  filterFn: (node) => !hiddenFromExplorer.includes(node.displayName.toLowerCase()),
+  filterFn: (node) => {
+    const name = node.displayName?.toLowerCase() ?? ""
+    return !hiddenFromExplorer.includes(name)
+  },
 })
 
 const config = await loadQuartzConfig()
