@@ -1,8 +1,10 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import * as ExternalPlugin from "./.quartz/plugins"
 
+const hiddenFromExplorer = ["changelog-data", "assets", "tags"]
+
 ExternalPlugin.Explorer({
-  filterFn: (node) => node.displayName.toLowerCase() !== "changelog-data",
+  filterFn: (node) => !hiddenFromExplorer.includes(node.displayName.toLowerCase()),
 })
 
 const config = await loadQuartzConfig()
