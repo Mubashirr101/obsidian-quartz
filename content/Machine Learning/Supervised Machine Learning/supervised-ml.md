@@ -14,5 +14,5 @@ title: Supervised Machine Learning
 
 ## Types of Supervised Machine Learning Algorithms:
 
-1. [[Machine Learning/Regression|Regression]] *(Used if output is continuous)*
-2. [[Machine Learning/Classification|Classification]] *(Used if output is discreet)*
+1. [[Machine Learning/Supervised Machine Learning/Regression|Regression]] *(Used if output is continuous)*
+2. [[Machine Learning/Supervised Machine Learning/Classification|Classification]] *(Used if output is discreet)*
