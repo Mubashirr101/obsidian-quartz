@@ -6,7 +6,7 @@ created: 2026-07-22
 # Lookup Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]] · See also [[Array & Dynamic Array Functions]]
+> Part of [[Excel]] · See also [[Array & Dynamic Array Functions]]
 
 ## VLOOKUP
 Looks up a value in the **first column** of a range and returns a value in the same row from a specified column.

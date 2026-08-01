@@ -6,7 +6,7 @@ created: 2026-07-22
 # Text Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## Extracting Text
 | Function | Purpose | Example |

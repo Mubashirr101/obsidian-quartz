@@ -6,7 +6,7 @@ created: 2026-07-22
 # Power Query Basics
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## What It's For
 ETL (Extract, Transform, Load) tool built into Excel. Clean, reshape, and combine data from multiple sources **without formulas**, with every step recorded and repeatable/refreshable.

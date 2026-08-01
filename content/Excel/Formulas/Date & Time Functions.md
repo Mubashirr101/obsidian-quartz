@@ -6,7 +6,7 @@ created: 2026-07-22
 # Date & Time Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 > [!note] How Excel Stores Dates
 > Dates are stored as serial numbers (day count since **1 Jan 1900** = 1). Time is the decimal fraction of a day (`12:00 PM` = `0.5`). This is why dates can be added/subtracted directly.

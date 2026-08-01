@@ -6,7 +6,7 @@ created: 2026-07-22
 # Logical Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## IF
 ```

@@ -6,7 +6,7 @@ created: 2026-07-22
 # Array & Dynamic Array Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]] · Requires Excel 365 / Excel 2021+ unless noted
+> Part of [[Excel]] · Requires Excel 365 / Excel 2021+ unless noted
 
 ## What Changed
 Modern Excel formulas that return multiple values automatically **spill** into neighboring cells — no more `Ctrl+Shift+Enter`. The spill range is marked with a light blue border, and referencing the whole thing uses the `#` operator: `=A1#`.

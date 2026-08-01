@@ -6,7 +6,7 @@ created: 2026-07-22
 # Data Validation & Conditional Formatting
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## Data Validation
 **Data → Data Validation**

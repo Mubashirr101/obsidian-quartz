@@ -6,7 +6,7 @@ created: 2026-07-22
 # Financial Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 > [!note] Sign Convention
 > Cash **outflows** (payments made) are negative; cash **inflows** (money received) are positive. This trips up almost everyone at first.

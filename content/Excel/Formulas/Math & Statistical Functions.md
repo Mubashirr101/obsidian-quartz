@@ -6,7 +6,7 @@ created: 2026-07-22
 # Math & Statistical Functions
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## Aggregation Basics
 | Function | Purpose |

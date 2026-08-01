@@ -6,7 +6,7 @@ created: 2026-07-22
 # Pivot Tables
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## What They're For
 Summarize, aggregate, and explore large datasets without writing formulas — group, count, sum, and cross-tabulate interactively.

@@ -6,7 +6,7 @@ created: 2026-07-22
 # Keyboard Shortcuts
 
 > [!info] Navigation
-> Part of [[Excel MOC]] · Windows shortcuts shown; Mac generally swaps `Ctrl`→`Cmd`, `Alt`→`Option`
+> Part of [[Excel]] · Windows shortcuts shown; Mac generally swaps `Ctrl`→`Cmd`, `Alt`→`Option`
 
 ## Navigation
 | Shortcut | Action |

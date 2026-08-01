@@ -6,7 +6,7 @@ created: 2026-07-22
 # Formula Basics
 
 > [!info] Navigation
-> Part of [[Excel MOC]]
+> Part of [[Excel]]
 
 ## Anatomy of a Formula
 Every formula starts with `=` followed by a combination of operators, values, cell references, and functions.

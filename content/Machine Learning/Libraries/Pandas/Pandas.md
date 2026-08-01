@@ -1,7 +1,14 @@
 ---
-title: Pandas MOC
-tags: [pandas, python, moc, data-science]
-aliases: [Pandas, Pandas Index, Pandas Home]
+title: Pandas
+tags:
+  - pandas
+  - python
+  - moc
+  - data-science
+aliases:
+  - Pandas
+  - Pandas Index
+  - Pandas Home
 created: 2026-08-01
 ---
 
