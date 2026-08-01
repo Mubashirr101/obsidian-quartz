@@ -105,7 +105,7 @@ df.to_csv("out.csv", index=False)  # save
 ---
 
 ## 🔗 Related in LORE
-- [[Excel/00-Excel-MOC|Excel Reference]] : for spreadsheet-side equivalents (VLOOKUP ≈ `merge`, Pivot Table ≈ `pivot_table`)
+- [[Excel|Excel Reference]] : for spreadsheet-side equivalents (VLOOKUP ≈ `merge`, Pivot Table ≈ `pivot_table`)
 - ML Study Notes : pandas is the primary data-prep tool referenced there
 
 > [!tip] How to use this vault section
