@@ -13,7 +13,6 @@ Think of this less like documentation and more like a working memory, made publi
 
 
 ---
----
 ## What's in here
 
 - **Notes** on tools, languages, and concepts I've worked through
