@@ -1,7 +1,9 @@
 ---
 title: Homepage
 ---
-**L**earnings, **O**bservations, **R**esearch & **E**xperience 
+
+---
+<img src="assets/images/LORE_logo1.jpg" style="float: left; margin-right: 15px; width:50%;">**L**earnings, **O**bservations, **R**esearch & **E**xperience 
 
 aka **LORE**
 
@@ -9,6 +11,9 @@ This is where I keep what I've learned , as a data scientist, programmer, and en
 
 Think of this less like documentation and more like a working memory, made public.
 
+
+---
+---
 ## What's in here
 
 - **Notes** on tools, languages, and concepts I've worked through
