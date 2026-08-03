@@ -1,5 +1,5 @@
 ---
-title: UNsupervised Machine Learning
+title: Unsupervised ML
 ---
 ## Definition
 

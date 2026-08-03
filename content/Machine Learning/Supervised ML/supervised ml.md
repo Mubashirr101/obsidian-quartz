@@ -1,5 +1,5 @@
 ---
-title: Supervised Machine Learning
+title: Supervised ML
 ---
 ## Definition
 
