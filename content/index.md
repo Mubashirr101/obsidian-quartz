@@ -3,7 +3,9 @@ title: Homepage
 ---
 
 ---
-<img src="assets/images/LORE_logo1.jpg" style="float: left; margin-right: 15px; width:50%;">**L**earnings, **O**bservations, **R**esearch & **E**xperience 
+<img src="assets/images/LORE_logo1.jpg" style="float: left; margin-right: 15px; width:50%;">
+
+**L**earnings, **O**bservations, **R**esearch & **E**xperience 
 
 aka **LORE**
 
