@@ -10,5 +10,5 @@ title: UNsupervised Machine Learning
 
 ## Types of Unsupervised Machine Learning Algorithms:
 
-1. [[Machine Learning/Unsupervised Machine Learning/Clustering]]
+1. [[Machine Learning/Unsupervised ML/Clustering]]
 2. [[Dimensionality Reduction]]
