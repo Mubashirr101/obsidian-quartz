@@ -1,65 +1,128 @@
-**PostgreSQL** is an **open-source relational database management system (RDBMS)** used to store, manage, and retrieve structured data efficiently. It follows the **SQL (Structured Query Language)** standard and supports advanced features such as **transactions, indexing, complex queries, and data integrity constraints**.
+---
+title: PostgreSQL
+tags:
+  - postgresql
+  - sql
+  - moc
+  - database
+aliases:
+  - PostgreSQL
+  - Postgres
+  - SQL Index
+  - Postgres Home
+created: 2026-08-04
+---
 
-It uses a **client–server architecture**, where users interact with the database through tools such as the **psql command-line interface, pgAdmin, or programming languages like Python, Java, and others**.
+# 🐘 PostgreSQL - Map of Content
 
-Because of its **performance, scalability, and powerful features**, PostgreSQL is widely used in **data science, web applications, financial systems, and enterprise software**.
+> [!abstract] What is PostgreSQL?
+> **PostgreSQL** ("Postgres") is a powerful, open-source, object-relational database system known for standards compliance, extensibility, and advanced features like JSONB, window functions, full-text search, and custom types. This folder is a full command and syntax reference, organized the same way as the [[Pandas/00-Pandas-MOC|Pandas]], [[NumPy/00-NumPy-MOC|NumPy]], and [[Scikit-learn/00-Sklearn-MOC|Scikit-learn]] folders.
 
-# 1. Starting up a postgre terminal (using cli)
+```sql
+-- The classic sanity check
+SELECT version();
+```
 
-## Steps:
-1. From psql shell
-	1. Open : SQL Shell (psql) 
-	2. Enter credentials (keep them null for default values (i.e. just press enter when asked for credentials)), password is mandatory though.
-	3. Enter ‘\l’ command to list all the databases present
-2. From any terminal
-	1. Command → psql -h localhost -p 5432 -U username dbname
-	2. PS: default username is postgres
-	
-		
+> [!info] Version note
+> This vault assumes **PostgreSQL 16+**. Syntax notes flag anything version-specific (e.g. `MERGE` requires 15+, multirange types require 14+).
 
-# 2. SQL commands :
+---
 
-## Database Commands:
-1. [[CREATE DATABASE]] : Creates a database which can contain tables
-2. [[slash commands]] → ‘\l’ ,’ \c ‘, ‘\d’ ,’\dt’ ,’\i’ ,’\copy’
-3. [[DROP DATABASE ]]: Removes the specified database
-## Table Commands :
-### 1.  DDL (Data Definition Language):
-1. [[CREATE TABLE]] : Creates a table with specified columns , their data types and constrains.
-2. [[DROP TABLE]] : Removes the specified table from the database
-3. [[ALTER]] : Makes changes in database schema like changes in constraints, etc.
-4. [[TRUNCATE]]
-### 2. DML (Data Manipulation Language):
-1. [[INSERT]] : Enter values in the specified columns of a specified table
-2. [[UPDATE]] : Makes changes in the specified table’s rows/columns
-3. [[DELETE]] : Permanently deletes a table or parts of it
-### 3. DQL (Data Query Language):
-1. [[SELECT]] : Display the data which is queried
-2. [[ORDER BY]] : Sort the table as per any column, either ascending or descending
-3. [[DISTINCT]] : Shows unique entries 
-4. [[WHERE]] : This clause is used to filter the query using conditions
-5. [[AND]] : Used to club two or more conditions, where both should be true in a single WHERE clause
-6. [[OR]] : Used to club two or more conditions, where either one can be true in a single WHERE clause
-7. [[Comparison Operators]] : { > , < , <> , = , ≤ , ≥ }
-8. [[LIMIT]] : Shows only the specified number of entries
-9. [[OFFSET]] : Skips the specified number of entries
-10. [[IN]] : Used to add multiple conditional variables in an array
-11. [[LIKE]] : Matches a text operator against a pattern, it is case sensitive
-12. [[ILIKE]] : Matches a text operator against a pattern, it is not case sensitive
-13. [[GROUP BY]] : Used to group data based on a column and can carry out aggregate functions like min, max, sum, count, avg, etc.
-14. [[Arithmetic Operators]] : { + , - , * , / , ^ , ! , % , etc. }
-15. [[COALESCE]] : Handles null values by giving them a non-null default value
-16. [[NULLIF]] : Specifies what to do if there is null, mostly used when handling division by zero
-17. [[Timestamp & dates]] : - NOW(), INTERVAL
-18. [[EXTRACT]] : Used to extract fields from a date
-19. [[Primary Key]] 
-20. [[Unique Constraints]]
-21. [[ON CONFLICT() DO NOTHING]] : It is a way of error handling for constraint violations upon command run
-22. [[UPSERT]] : Its is essentially an update command inside an insert command
-23. [[Foreign Key ]]
-24. [[INNER JOIN]] : 
-25. [[LEFT JOIN]]
-26. [[Bigserial & Serial]]
-27. [[Extensions]]
-28. [[UUID]] : Universally Unique Identifier
+## 📂 Folder Contents
 
+| # | Note | Covers |
+|---|------|--------|
+| 01 | [[01-Installation-Connection]] | Installing Postgres, `psql`, connecting, roles |
+| 02 | [[02-Data-Types]] | Numeric, text, date/time, boolean, arrays, JSON, UUID |
+| 03 | [[03-DDL-Tables]] | `CREATE`, `ALTER`, `DROP TABLE`, schemas |
+| 04 | [[04-Constraints-Keys]] | Primary/foreign keys, `CHECK`, `UNIQUE`, `NOT NULL` |
+| 05 | [[05-DML-Insert-Update-Delete]] | `INSERT`, `UPDATE`, `DELETE`, `UPSERT`, `MERGE` |
+| 06 | [[06-Querying-Select-Where]] | `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`, operators |
+| 07 | [[07-Joins]] | `INNER`, `LEFT`, `RIGHT`, `FULL`, `CROSS`, `SELF` joins |
+| 08 | [[08-Aggregation-GroupBy]] | `GROUP BY`, `HAVING`, aggregate functions |
+| 09 | [[09-Subqueries-CTEs]] | Subqueries, `WITH`, recursive CTEs |
+| 10 | [[10-Window-Functions]] | `OVER`, `PARTITION BY`, ranking, running totals |
+| 11 | [[11-Indexes]] | B-tree, GIN, GiST, partial/expression indexes |
+| 12 | [[12-Transactions]] | `BEGIN`/`COMMIT`/`ROLLBACK`, isolation levels, locks |
+| 13 | [[13-Views]] | Views, materialized views |
+| 14 | [[14-Functions-Stored-Procedures]] | `PL/pgSQL`, functions, procedures |
+| 15 | [[15-Triggers]] | `CREATE TRIGGER`, trigger functions |
+| 16 | [[16-JSON-JSONB]] | JSON/JSONB storage, operators, functions |
+| 17 | [[17-Full-Text-Search]] | `tsvector`, `tsquery`, ranking |
+| 18 | [[18-psql-Admin-Commands]] | Meta-commands, backup/restore, users/permissions |
+| 19 | [[19-Common-Errors-Gotchas]] | Common errors, NULL traps, performance pitfalls |
+
+---
+
+## 🗺️ Conceptual Map
+
+```mermaid
+graph TD
+    A[PostgreSQL] --> B[Schema Design]
+    A --> C[Data Manipulation]
+    A --> D[Querying]
+    A --> E[Server-Side Logic]
+    A --> F[Operations]
+
+    B --> B1[Data Types]
+    B --> B2[Tables & Constraints]
+    B --> B3[Indexes]
+
+    C --> C1[INSERT / UPDATE / DELETE]
+    C --> C2[Transactions]
+
+    D --> D1[SELECT / WHERE / JOIN]
+    D --> D2[GROUP BY / Aggregates]
+    D --> D3[CTEs / Subqueries]
+    D --> D4[Window Functions]
+
+    E --> E1[Views]
+    E --> E2[Functions / Procedures]
+    E --> E3[Triggers]
+
+    F --> F1[psql / Admin]
+    F --> F2[Backup & Restore]
+```
+
+---
+
+## ⚡ Quick Reference - Most-Used Statements
+
+```sql
+-- Connect
+psql -U username -d database_name -h localhost
+
+-- Table lifecycle
+CREATE TABLE users (id SERIAL PRIMARY KEY, name TEXT NOT NULL, email TEXT UNIQUE);
+ALTER TABLE users ADD COLUMN age INT;
+DROP TABLE users;
+
+-- CRUD
+INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com');
+SELECT * FROM users WHERE age > 25 ORDER BY name LIMIT 10;
+UPDATE users SET age = 26 WHERE id = 1;
+DELETE FROM users WHERE id = 1;
+
+-- Joins & aggregation
+SELECT u.name, COUNT(o.id) AS order_count
+FROM users u
+LEFT JOIN orders o ON o.user_id = u.id
+GROUP BY u.name
+HAVING COUNT(o.id) > 0;
+
+-- Transactions
+BEGIN;
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+COMMIT;
+```
+
+---
+
+## 🔗 Related in LORE
+- [[Pandas/03-IO-Reading-Writing|Pandas: IO Reading & Writing]] - `pd.read_sql()` pulls query results straight into a DataFrame
+- [[git-setup|Git Complete Setup Guide]]
+- ML Study Notes - SQL is typically the data-extraction layer feeding into pandas/sklearn pipelines
+
+> [!tip] How to use this vault section
+> Same skeleton throughout: **Definition -> Syntax -> Key Parameters/Clauses -> Examples -> Notes/Gotchas**. Use `Ctrl/Cmd+O` and type "PostgreSQL" or the note number to jump around.
