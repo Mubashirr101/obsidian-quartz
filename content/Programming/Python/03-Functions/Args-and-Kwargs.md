@@ -1,6 +1,6 @@
 ---
 tags: [python, functions, args, kwargs]
-aliases: [args kwargs, *args, **kwargs, variadic functions]
+aliases: [args kwargs, args, kwargs, variadic functions]
 ---
 
 # Args and Kwargs

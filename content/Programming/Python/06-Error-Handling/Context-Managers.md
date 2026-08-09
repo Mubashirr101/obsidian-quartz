@@ -1,6 +1,6 @@
 ---
 tags: [python, error-handling, context-managers, with-statement]
-aliases: [Context Managers, "with" statement, "__enter__", "__exit__"]
+aliases: [Context Managers, ]
 ---
 
 # Context Managers
