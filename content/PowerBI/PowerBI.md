@@ -1,7 +1,15 @@
 ---
-title: Power BI MOC
-tags: [powerbi, dax, moc, business-intelligence, data-viz]
-aliases: [Power BI, PowerBI, Power BI Home]
+title: PowerBI
+tags:
+  - powerbi
+  - dax
+  - moc
+  - business-intelligence
+  - data-viz
+aliases:
+  - Power BI
+  - PowerBI
+  - Power BI Home
 created: 2026-08-06
 ---
 
