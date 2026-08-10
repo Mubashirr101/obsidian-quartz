@@ -3,8 +3,6 @@ title: Homepage
 ---
 
 ---
-<img src="assets/images/LORE_logo1.jpg" style="float: left; margin-right: 15px; width:50%;">
-
 **L**earnings, **O**bservations, **R**esearch & **E**xperience 
 
 aka **LORE**
@@ -26,9 +24,9 @@ Nothing here is final. Notes get revised as I understand things better. Treat da
 
 ## Where to start
 
+- Just pick a folder in the sidebar and see what's there
 - Browse the [[tags/index|tags]] if you're looking for something specific
 - Use the graph view to wander, a lot of these notes connect in non-obvious ways
-- Or just pick a folder in the sidebar and see what's there
 
 ---
 
