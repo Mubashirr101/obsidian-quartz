@@ -11,6 +11,25 @@ aliases: [pandas io, read_csv, to_csv]
 
 ---
 
+> [!tip] File paths
+>If you copy a path directly from Windows File Explorer, it will contain single backslashes (e.g., `C:\Users\Name`). Python treats a single backslash as an "escape character" (like `\n` for a new line or `\t` for a tab), which breaks your path
+>```python
+># The 'r' tells Python to ignore escape characters
+>correct_path = r"C:\Users\UserName\Documents\file.txt"
+> 
+> # You can manually escape each Windows backslash by doubling it up, though this is tedious for long paths
+>manual_path = "C:\\Users\\UserName\\Documents\\file.txt"
+> 
+># The `pathlib` module allows you to write clean, cross-platform code and even lets you use the `/` symbol as an operator to join paths
+>from pathlib import Path
+># Always use forward slashes inside Path()
+>data_folder = Path("C:/Users/UserName/Documents/Data")
+>file_path = data_folder / "file.txt"
+>print(file_path)
+># On Windows outputs: C:\Users\UserName\Documents\Data\file.txt
+># On Mac/Linux outputs: C:/Users/UserName/Documents/Data/file.txt
+>```
+
 ## CSV
 
 ```python
@@ -118,7 +137,47 @@ df.to_sql(
 ```
 
 ---
+## TXT
+```python
 
+# reading a txt file
+# Opens 'output.txt' in read mode ('r')
+with open("output.txt", "r") as file:
+    # Removes whitespace and newlines from the end of each line
+    items = [line.rstrip() for line in file]
+
+print(items)
+# Output: ['apple', 'banana', 'cherry']
+
+with open("output.txt", "r") as file:
+    # Reads the file and splits the text wherever there is a comma
+    items = file.read().split(",")
+
+print(items)
+# Output: ['apple', 'banana', 'cherry']
+
+with open("output.txt", "r") as file:
+    items = file.readlines()
+
+print(items)
+# Output: ['apple\n', 'banana\n', 'cherry\n']
+
+# write to a txt file
+items = ["apple", "banana", "cherry"]
+
+# Opens 'output.txt' in write mode ('w')
+with open("output.txt", "w") as file:
+    for item in items:
+        file.write(f"{item}\n")
+        
+        
+# writes in new lines        
+with open("output.txt", "w") as file:
+    file.write("\n".join(items))
+        
+
+```
+---
 ## Parquet / Feather (columnar, fast, typed)
 
 ```python

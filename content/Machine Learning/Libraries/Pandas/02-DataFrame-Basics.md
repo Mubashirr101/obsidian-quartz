@@ -83,11 +83,26 @@ df.rename(columns={"name": "full_name"}, inplace=True)
 df.drop(columns=["city"], inplace=True)
 df.drop("city", axis=1)               # equivalent
 
+# drop all the cols except some / keep some and drop the rest
+cols_to_keep = ["name", "age"]
+# Safe selection: only keeps columns that actually exist in df
+existing_cols = [col for col in cols_to_keep if col in df.columns] 
+df = df[existing_cols]
+
+
+# Keep only the columns in your list (using filter)
+df = df.filter(items=cols_to_keep)
+# Drops all columns that are NOT in your list
+df = df.drop(columns=df.columns.difference(cols_to_keep))
+
 df.insert(loc=1, column="id", value=range(len(df)))  # insert at position
 
 df.columns = ["a", "b", "c"]          # rename all at once
 df = df.add_prefix("col_")
 df = df.add_suffix("_v1")
+
+
+
 ```
 
 ---
