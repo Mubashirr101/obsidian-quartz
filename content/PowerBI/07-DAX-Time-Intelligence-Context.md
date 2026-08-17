@@ -141,4 +141,4 @@ Running Total = CALCULATE([Total Sales], FILTER(ALLSELECTED('Date'[Date]), 'Date
 - [[05-DAX-Fundamentals]]
 - [[06-DAX-Functions-Reference]]
 - [[04-Data-Modeling-Relationships]]
-- [[17-Common-Errors-Gotchas]]
+- [[PowerBI/17-Common-Errors-Gotchas]]

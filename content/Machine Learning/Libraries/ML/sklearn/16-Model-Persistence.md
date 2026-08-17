@@ -107,4 +107,4 @@ with open("model_metadata.json", "w") as f:
 ## Related
 - [[04-Pipelines-ColumnTransformer]]
 - [[03-IO-Reading-Writing|Pandas: IO Reading & Writing]]
-- [[17-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]]

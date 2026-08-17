@@ -182,4 +182,4 @@ SELECT '2026-08-04'::DATE;
 ## Related
 - [[03-DDL-Tables]]
 - [[16-JSON-JSONB]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

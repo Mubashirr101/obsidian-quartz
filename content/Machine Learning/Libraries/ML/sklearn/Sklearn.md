@@ -1,14 +1,21 @@
 ---
-title: Scikit-learn MOC
-tags: [sklearn, python, moc, machine-learning]
-aliases: [sklearn, Scikit-learn, Scikit-learn Home]
+title: Scikit-learn
+tags:
+  - sklearn
+  - python
+  - moc
+  - machine-learning
+aliases:
+  - sklearn
+  - Scikit-learn
+  - Scikit-learn Home
 created: 2026-08-01
 ---
 
-# 🤖 Scikit-learn — Map of Content
+# 🤖 Scikit-learn 
 
 > [!abstract] What is scikit-learn?
-> **scikit-learn** (`sklearn`) is Python's core general-purpose machine learning library — consistent APIs for preprocessing, supervised/unsupervised models, model selection, and evaluation, all built on top of [[NumPy|NumPy]] and interoperable with [[Pandas|pandas]] DataFrames.
+> **scikit-learn** (`sklearn`) is Python's core general-purpose machine learning library — consistent APIs for preprocessing, supervised/unsupervised models, model selection, and evaluation, all built on top of [[numpy|NumPy]] and interoperable with [[pandas|pandas]] DataFrames.
 
 ```python
 import sklearn
@@ -40,7 +47,7 @@ from sklearn.model_selection import train_test_split
 | 14 | [[14-Text-Feature-Extraction]] | `CountVectorizer`, `TfidfVectorizer` |
 | 15 | [[15-Neural-Networks-MLP]] | `MLPClassifier`/`MLPRegressor` |
 | 16 | [[16-Model-Persistence]] | `joblib`, pickling models |
-| 17 | [[17-Common-Errors-Gotchas]] | Data leakage, scaling order, common `ValueError`s |
+| 17 | [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]] | Data leakage, scaling order, common `ValueError`s |
 
 ---
 
@@ -103,8 +110,8 @@ print(classification_report(y_test, y_pred))
 ---
 
 ## 🔗 Related in LORE
-- [[Pandas|Pandas Reference]] — data loading/cleaning before feeding into sklearn
-- [[NumPy|NumPy Reference]] — sklearn arrays, math under the hood
+- [[pandas|Pandas Reference]] — data loading/cleaning before feeding into sklearn
+- [[numpy|NumPy Reference]] — sklearn arrays, math under the hood
 - ML Study Notes — Cost Function, Linear Regression theory that these models implement
 
 > [!tip] How to use this vault section

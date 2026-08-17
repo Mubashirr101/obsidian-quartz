@@ -131,4 +131,4 @@ automatically filtered too"]
 ## Related
 - [[04-Data-Modeling-Relationships]]
 - [[15-Publishing-Power-BI-Service]]
-- [[17-Common-Errors-Gotchas]]
+- [[PowerBI/17-Common-Errors-Gotchas]]

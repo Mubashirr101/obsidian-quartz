@@ -140,4 +140,4 @@ for train_idx, val_idx in kf.split(X):
 ## Related
 - [[04-Pipelines-ColumnTransformer]]
 - [[12-Hyperparameter-Tuning]]
-- [[17-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]]

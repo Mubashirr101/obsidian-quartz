@@ -53,7 +53,7 @@ graph LR
 | 14 | [[14-Row-Level-Security]] | RLS roles, `USERPRINCIPALNAME`, dynamic security |
 | 15 | [[15-Publishing-Power-BI-Service]] | Workspaces, apps, gateways, scheduled refresh |
 | 16 | [[16-Performance-Optimization]] | Star schema, aggregations, DAX performance, Performance Analyzer |
-| 17 | [[17-Common-Errors-Gotchas]] | Common errors, circular dependencies, filter context traps |
+| 17 | [[PowerBI/17-Common-Errors-Gotchas]] | Common errors, circular dependencies, filter context traps |
 
 ---
 
@@ -116,7 +116,7 @@ DIVIDE([Total Sales] - [Total Sales Last Year], [Total Sales Last Year])
 
 ## 🔗 Related in LORE
 - [[Excel|Excel Reference]] - Power Query and many DAX functions mirror Excel formulas/Power Pivot
-- [[Pandas|Pandas Reference]] - `groupby`/`pivot_table` map conceptually to DAX measures + matrix visuals
+- [[pandas|Pandas Reference]] - `groupby`/`pivot_table` map conceptually to DAX measures + matrix visuals
 - [[PostgreSQL|PostgreSQL Reference]] - a common data source connector for Power BI
 
 > [!tip] How to use this vault section

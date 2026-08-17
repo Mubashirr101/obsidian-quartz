@@ -50,7 +50,7 @@ SELECT version();
 | 16 | [[16-JSON-JSONB]] | JSON/JSONB storage, operators, functions |
 | 17 | [[17-Full-Text-Search]] | `tsvector`, `tsquery`, ranking |
 | 18 | [[18-psql-Admin-Commands]] | Meta-commands, backup/restore, users/permissions |
-| 19 | [[19-Common-Errors-Gotchas]] | Common errors, NULL traps, performance pitfalls |
+| 19 | [[DBMS/PostgreSql/19-Common-Errors-Gotchas]] | Common errors, NULL traps, performance pitfalls |
 
 ---
 
@@ -120,7 +120,7 @@ COMMIT;
 ---
 
 ## 🔗 Related in LORE
-- [[Pandas/03-IO-Reading-Writing|Pandas: IO Reading & Writing]] - `pd.read_sql()` pulls query results straight into a DataFrame
+- [[03-IO-Reading-Writing|Pandas: IO Reading & Writing]] - `pd.read_sql()` pulls query results straight into a DataFrame
 - [[git-setup|Git Complete Setup Guide]]
 - ML Study Notes - SQL is typically the data-extraction layer feeding into pandas/sklearn pipelines
 

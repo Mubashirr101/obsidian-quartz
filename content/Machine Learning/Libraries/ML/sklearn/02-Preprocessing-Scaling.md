@@ -33,7 +33,7 @@ Normalizer(norm="l2")                         # scales each ROW (sample) to unit
 | `Normalizer` | scales each sample to unit norm | text/TF-IDF vectors, direction-sensitive models |
 
 > [!warning] Fit scalers on training data ONLY
-> `scaler.fit_transform(X_train)` then `scaler.transform(X_test)` — never call `.fit()` on test data, or you leak test-set statistics into the model (data leakage). See [[17-Common-Errors-Gotchas]].
+> `scaler.fit_transform(X_train)` then `scaler.transform(X_test)` — never call `.fit()` on test data, or you leak test-set statistics into the model (data leakage). See [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]].
 
 ---
 
@@ -131,4 +131,4 @@ model = TransformedTargetRegressor(
 ## Related
 - [[04-Pipelines-ColumnTransformer]]
 - [[05-Missing-Data|Pandas: Missing Data]]
-- [[17-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]]

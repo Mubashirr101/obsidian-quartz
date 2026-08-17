@@ -117,7 +117,7 @@ Customer Region = RELATED(Customers[Region])
 ## Duplicate Values Appearing After a Merge/Join
 
 > [!warning] Usually caused by a non-unique join key
-> If the "one" side of an intended many-to-one relationship (or Power Query merge) actually has duplicate keys, matching rows multiply unexpectedly (the same "many-to-many" row explosion problem as in SQL - see [[19-Common-Errors-Gotchas|PostgreSQL: Common Errors]]). Check for duplicates on the key column (`Remove Duplicates` in Power Query, or `DISTINCTCOUNT` vs `COUNTROWS` in DAX) before relying on a relationship being truly one-to-many.
+> If the "one" side of an intended many-to-one relationship (or Power Query merge) actually has duplicate keys, matching rows multiply unexpectedly (the same "many-to-many" row explosion problem as in SQL - see [[DBMS/PostgreSql/19-Common-Errors-Gotchas|PostgreSQL: Common Errors]]). Check for duplicates on the key column (`Remove Duplicates` in Power Query, or `DISTINCTCOUNT` vs `COUNTROWS` in DAX) before relying on a relationship being truly one-to-many.
 
 ---
 

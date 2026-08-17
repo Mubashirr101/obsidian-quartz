@@ -154,4 +154,4 @@ COPY users TO '/path/to/export.csv' WITH (FORMAT csv, HEADER true);
 - [[04-Constraints-Keys]]
 - [[06-Querying-Select-Where]]
 - [[12-Transactions]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

@@ -133,4 +133,4 @@ np.array([1, [2, 3], "x"])       # dtype becomes 'object' — loses vectorizatio
 - [[01-Arrays-Basics]]
 - [[02-Indexing-Slicing]]
 - [[03-Broadcasting-Operations]]
-- [[19-Common-Errors-Gotchas|Pandas: Common Errors & Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas|Pandas: Common Errors & Gotchas]]

@@ -49,7 +49,7 @@ import numpy as np
 | 16 | [[16-Window-Rolling-Expanding]] | `rolling`, `expanding`, `ewm` |
 | 17 | [[17-Plotting]] | `.plot()` accessor, matplotlib integration |
 | 18 | [[18-Options-Performance]] | `pd.options`, memory, `eval`/`query`, vectorization tips |
-| 19 | [[19-Common-Errors-Gotchas]] | `SettingWithCopyWarning`, chained indexing, dtype traps |
+| 19 | [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]] | `SettingWithCopyWarning`, chained indexing, dtype traps |
 
 ---
 

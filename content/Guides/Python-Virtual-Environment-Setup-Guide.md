@@ -657,7 +657,7 @@ python -c "import sys; print(sys.path)"    # see where Python is actually lookin
 
 ## 🔗 Related in LORE
 - [[git-setup|Git Complete Setup Guide]]
-- [[Pandas|Pandas Reference]]
+- [[pandas|Pandas Reference]]
 - [[Sklearn|Scikit-learn Reference]]
 
 > [!quote] Reminder

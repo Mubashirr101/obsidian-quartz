@@ -180,4 +180,4 @@ WHERE conrelid = 'users'::regclass;
 - [[03-DDL-Tables]]
 - [[07-Joins]]
 - [[11-Indexes]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

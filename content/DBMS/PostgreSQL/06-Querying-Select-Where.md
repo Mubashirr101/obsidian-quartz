@@ -25,7 +25,7 @@ graph TD
 ```
 
 > [!warning] Why this matters
-> You can't reference a `SELECT` column alias inside `WHERE` (WHERE runs before SELECT), but you CAN reference it in `ORDER BY` (which runs after). This trips up beginners constantly - see [[19-Common-Errors-Gotchas]].
+> You can't reference a `SELECT` column alias inside `WHERE` (WHERE runs before SELECT), but you CAN reference it in `ORDER BY` (which runs after). This trips up beginners constantly - see [[DBMS/PostgreSql/19-Common-Errors-Gotchas]].
 
 ---
 
@@ -178,4 +178,4 @@ SELECT city FROM suppliers;
 - [[07-Joins]]
 - [[08-Aggregation-GroupBy]]
 - [[11-Indexes]] (for `OFFSET`/pagination performance)
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

@@ -180,4 +180,4 @@ DROP FUNCTION IF EXISTS add_numbers(INT, INT);
 ## Related
 - [[15-Triggers]]
 - [[12-Transactions]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

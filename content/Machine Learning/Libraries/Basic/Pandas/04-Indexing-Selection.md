@@ -114,7 +114,7 @@ df.at["row1", "col1"] = 5
 ```
 
 > [!warning] Chained indexing (`df[df.a > 0]["b"] = 1`) is unsafe
-> This creates an intermediate copy, so the assignment may silently fail to update the original DataFrame and raises `SettingWithCopyWarning`. Always chain through a single `.loc[...]` call instead: `df.loc[df.a > 0, "b"] = 1`. See [[19-Common-Errors-Gotchas]].
+> This creates an intermediate copy, so the assignment may silently fail to update the original DataFrame and raises `SettingWithCopyWarning`. Always chain through a single `.loc[...]` call instead: `df.loc[df.a > 0, "b"] = 1`. See [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]].
 
 ---
 
@@ -160,4 +160,4 @@ df.index.name = "row_id"
 - [[02-DataFrame-Basics]]
 - [[05-Missing-Data]]
 - [[14-MultiIndex]]
-- [[19-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]]

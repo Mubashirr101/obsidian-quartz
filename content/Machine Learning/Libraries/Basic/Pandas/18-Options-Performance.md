@@ -36,7 +36,7 @@ pd.set_option("mode.copy_on_write", True)   # default from pandas 3.0 onward
 ```
 
 > [!info] What CoW changes
-> With Copy-on-Write enabled, any operation that looks like it returns a "view" (slicing, filtering) behaves as an independent copy the moment either object is modified — eliminating `SettingWithCopyWarning` and chained-assignment bugs entirely. See [[19-Common-Errors-Gotchas]].
+> With Copy-on-Write enabled, any operation that looks like it returns a "view" (slicing, filtering) behaves as an independent copy the moment either object is modified — eliminating `SettingWithCopyWarning` and chained-assignment bugs entirely. See [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]].
 
 ---
 
@@ -124,4 +124,4 @@ df.info(memory_usage="deep")          # inspect memory footprint
 - [[11-Apply-Map-Vectorization]]
 - [[15-Categorical-Data]]
 - [[03-IO-Reading-Writing]]
-- [[19-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]]

@@ -149,4 +149,4 @@ COMMIT;
 ## Related
 - [[05-DML-Insert-Update-Delete]]
 - [[03-DDL-Tables]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

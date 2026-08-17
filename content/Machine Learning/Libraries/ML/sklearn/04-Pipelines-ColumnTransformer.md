@@ -29,7 +29,7 @@ pipe.score(X_test, y_test)
 ```
 
 > [!tip] Why use a Pipeline instead of manual steps
-> A Pipeline guarantees the exact same preprocessing is applied consistently at train and predict time, and — critically — it lets `cross_val_score`/`GridSearchCV` refit the scaler correctly **within each fold**, avoiding data leakage. See [[17-Common-Errors-Gotchas]].
+> A Pipeline guarantees the exact same preprocessing is applied consistently at train and predict time, and — critically — it lets `cross_val_score`/`GridSearchCV` refit the scaler correctly **within each fold**, avoiding data leakage. See [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]].
 
 ---
 

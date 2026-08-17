@@ -207,4 +207,4 @@ Selected Region = SELECTEDVALUE(Region[RegionName], "All Regions")
 ## Related
 - [[05-DAX-Fundamentals]]
 - [[07-DAX-Time-Intelligence-Context]]
-- [[17-Common-Errors-Gotchas]]
+- [[PowerBI/17-Common-Errors-Gotchas]]

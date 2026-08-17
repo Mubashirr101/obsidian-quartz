@@ -142,4 +142,4 @@ Disable "Auto Date/Time" (File > Options > Data Load) if not using the built-in 
 - [[04-Data-Modeling-Relationships]]
 - [[03-Power-Query-Editor-M-Language]]
 - [[05-DAX-Fundamentals]]
-- [[17-Common-Errors-Gotchas]]
+- [[PowerBI/17-Common-Errors-Gotchas]]

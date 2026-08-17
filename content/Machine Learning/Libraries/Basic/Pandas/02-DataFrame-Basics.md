@@ -160,7 +160,7 @@ df.select_dtypes(exclude=["object"])
 ## Copy vs View
 
 > [!warning] Copy-on-Write (pandas ≥ 2.0)
-> With CoW enabled (default in pandas 3.0), operations like `df2 = df1[...]` never silently mutate `df1`. Before CoW, chained assignments (`df[df.a > 0]["b"] = 1`) could trigger `SettingWithCopyWarning` and fail silently. See [[19-Common-Errors-Gotchas]].
+> With CoW enabled (default in pandas 3.0), operations like `df2 = df1[...]` never silently mutate `df1`. Before CoW, chained assignments (`df[df.a > 0]["b"] = 1`) could trigger `SettingWithCopyWarning` and fail silently. See [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]].
 
 ```python
 pd.set_option("mode.copy_on_write", True)   # explicit opt-in on older versions
@@ -198,4 +198,4 @@ for col_name, series in df.items():  # iterate columns
 ## Related
 - [[01-Series]]
 - [[04-Indexing-Selection]]
-- [[19-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]]

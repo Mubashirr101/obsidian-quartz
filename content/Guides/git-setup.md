@@ -747,8 +747,8 @@ git filter-repo --path big-file.zip --invert-paths
 
 ## 🔗 Related in LORE
 
-- [[Pandas|Pandas Reference]]
-- [[NumPy|NumPy Reference]]
+- [[pandas|Pandas Reference]]
+- [[numpy|NumPy Reference]]
 - [[Sklearn|Scikit-learn Reference]]
 
 > [!quote] Reminder Git tracks everything you commit, forever recoverable via `reflog`. The main way to truly lose work is to never commit it in the first place - commit early, commit often.

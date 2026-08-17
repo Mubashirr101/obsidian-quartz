@@ -143,4 +143,4 @@ CREATE INDEX idx_events_type ON events ((payload ->> 'type'));              -- e
 ## Related
 - [[02-Data-Types]]
 - [[11-Indexes]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

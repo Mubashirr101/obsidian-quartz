@@ -165,4 +165,4 @@ CREATE EXTENSION IF NOT EXISTS pg_trgm;              -- trigram matching, powers
 - [[01-Installation-Connection]]
 - [[11-Indexes]]
 - [[12-Transactions]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]

@@ -239,4 +239,4 @@ df = pd.read_pickle("out.pkl")
 ## Related
 - [[02-DataFrame-Basics]]
 - [[18-Options-Performance]]
-- [[19-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/Basic/Pandas/19-Common-Errors-Gotchas]]

@@ -153,5 +153,5 @@ VACUUM ANALYZE users;                      -- reclaim space, update planner stat
 ## Related
 - [[03-DDL-Tables]]
 - [[04-Constraints-Keys]]
-- [[19-Common-Errors-Gotchas]]
+- [[DBMS/PostgreSql/19-Common-Errors-Gotchas]]
 - [[18-psql-Admin-Commands]]

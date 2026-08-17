@@ -141,4 +141,4 @@ model = RandomForestClassifier(class_weight={0: 1, 1: 10})  # manual weights
 ## Related
 - [[03-Train-Test-Split-Cross-Validation]]
 - [[12-Hyperparameter-Tuning]]
-- [[17-Common-Errors-Gotchas]]
+- [[Machine Learning/Libraries/ML/sklearn/17-Common-Errors-Gotchas]]
