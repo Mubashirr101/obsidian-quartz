@@ -1,11 +1,17 @@
 ---
-title: 🐧 Linux
-tags: [linux, sysadmin, moc, index]
-aliases: [Linux Notes, GNU/Linux]
+title: Linux
+tags:
+  - linux
+  - sysadmin
+  - moc
+  - index
+aliases:
+  - Linux Notes
+  - GNU/Linux
 status: evergreen
 ---
 
-# 🐧 Linux
+#  Linux
 
 ## 👋 Introduction
 

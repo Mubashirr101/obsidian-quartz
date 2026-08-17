@@ -1,11 +1,22 @@
 ---
-title: 📦 Linux Package Management
-tags: [linux, apt, dnf, pacman, snap, package-manager]
-aliases: [apt, dnf, yum, pacman, apt-get]
+title: " Linux Package Management"
+tags:
+  - linux
+  - apt
+  - dnf
+  - pacman
+  - snap
+  - package-manager
+aliases:
+  - apt
+  - dnf
+  - yum
+  - pacman
+  - apt-get
 status: evergreen
 ---
 
-# 📦 Linux Package Management
+#  Linux Package Management
 
 ## 🧠 What this note covers
 

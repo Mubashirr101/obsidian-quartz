@@ -1,11 +1,21 @@
 ---
-title: 🔗 Linux Piping & Redirection
-tags: [linux, pipes, redirection, stdin, stdout, stderr]
-aliases: [Linux Pipes, stdout, stderr, stdin]
+title: Linux Piping & Redirection
+tags:
+  - linux
+  - pipes
+  - redirection
+  - stdin
+  - stdout
+  - stderr
+aliases:
+  - Linux Pipes
+  - stdout
+  - stderr
+  - stdin
 status: evergreen
 ---
 
-# 🔗 Linux Piping & Redirection
+#  Linux Piping & Redirection
 
 ## 🧠 What this note covers
 

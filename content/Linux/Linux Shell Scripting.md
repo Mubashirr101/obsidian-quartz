@@ -1,11 +1,17 @@
 ---
-title: 📜 Linux Shell Scripting
-tags: [linux, bash, shell-scripting, automation]
-aliases: [Bash Scripting, Linux Bash Scripts]
+title: Linux Shell Scripting
+tags:
+  - linux
+  - bash
+  - shell-scripting
+  - automation
+aliases:
+  - Bash Scripting
+  - Linux Bash Scripts
 status: evergreen
 ---
 
-# 📜 Linux Shell Scripting
+#  Linux Shell Scripting
 
 ## 🧠 What this note covers
 

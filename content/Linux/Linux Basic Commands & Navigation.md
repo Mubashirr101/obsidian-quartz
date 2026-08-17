@@ -1,11 +1,17 @@
 ---
-title: 🧭 Linux Basic Commands & Navigation
-tags: [linux, terminal, commands, navigation]
-aliases: [Linux Terminal Basics, Linux CLI]
+title: Linux Basic Commands & Navigation
+tags:
+  - linux
+  - terminal
+  - commands
+  - navigation
+aliases:
+  - Linux Terminal Basics
+  - Linux CLI
 status: evergreen
 ---
 
-# 🧭 Linux Basic Commands & Navigation
+#  Linux Basic Commands & Navigation
 
 ## 🧠 What this note covers
 

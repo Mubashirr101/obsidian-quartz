@@ -1,11 +1,21 @@
 ---
-title: 🌐 Linux Networking
-tags: [linux, networking, ssh, curl, wget, ip, ping]
-aliases: [Linux SSH, Linux curl, Linux ip command]
+title: " Linux Networking"
+tags:
+  - linux
+  - networking
+  - ssh
+  - curl
+  - wget
+  - ip
+  - ping
+aliases:
+  - Linux SSH
+  - Linux curl
+  - Linux ip command
 status: evergreen
 ---
 
-# 🌐 Linux Networking
+#  Linux Networking
 
 ## 🧠 What this note covers
 

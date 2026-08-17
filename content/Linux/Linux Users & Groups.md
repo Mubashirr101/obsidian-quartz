@@ -1,11 +1,20 @@
 ---
-title: 👥 Linux Users & Groups
-tags: [linux, users, groups, sudo, root, permissions]
-aliases: [Linux sudo, useradd, Linux root user]
+title: Linux Users & Groups
+tags:
+  - linux
+  - users
+  - groups
+  - sudo
+  - root
+  - permissions
+aliases:
+  - Linux sudo
+  - useradd
+  - Linux root user
 status: evergreen
 ---
 
-# 👥 Linux Users & Groups
+#  Linux Users & Groups
 
 ## 🧠 What this note covers
 

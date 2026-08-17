@@ -1,11 +1,21 @@
 ---
-title: 🔎 Linux Text Processing (grep sed awk)
-tags: [linux, grep, sed, awk, text-processing, regex]
-aliases: [grep, sed, awk, Linux Regex]
+title: " Linux Text Processing (grep sed awk)"
+tags:
+  - linux
+  - grep
+  - sed
+  - awk
+  - text-processing
+  - regex
+aliases:
+  - grep
+  - sed
+  - awk
+  - Linux Regex
 status: evergreen
 ---
 
-# 🔎 Linux Text Processing (grep sed awk)
+#  Linux Text Processing (grep sed awk)
 
 ## 🧠 What this note covers
 

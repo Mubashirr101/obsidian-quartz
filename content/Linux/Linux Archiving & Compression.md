@@ -1,11 +1,20 @@
 ---
-title: 🗜️ Linux Archiving & Compression
-tags: [linux, tar, gzip, zip, compression, archiving]
-aliases: [tar command, gzip, Linux zip]
+title: " Linux Archiving & Compression"
+tags:
+  - linux
+  - tar
+  - gzip
+  - zip
+  - compression
+  - archiving
+aliases:
+  - tar command
+  - gzip
+  - Linux zip
 status: evergreen
 ---
 
-# 🗜️ Linux Archiving & Compression
+# Linux Archiving & Compression
 
 ## 🧠 What this note covers
 

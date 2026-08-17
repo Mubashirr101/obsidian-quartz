@@ -1,11 +1,19 @@
 ---
-title: 🛎️ Linux Systemd & Services
-tags: [linux, systemd, systemctl, services, daemons]
-aliases: [systemctl, Linux Services, systemd]
+title: " Linux Systemd & Services"
+tags:
+  - linux
+  - systemd
+  - systemctl
+  - services
+  - daemons
+aliases:
+  - systemctl
+  - Linux Services
+  - systemd
 status: evergreen
 ---
 
-# 🛎️ Linux Systemd & Services
+# Linux Systemd & Services
 
 ## 🧠 What this note covers
 

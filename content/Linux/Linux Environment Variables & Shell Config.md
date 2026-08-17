@@ -1,11 +1,19 @@
 ---
-title: 🧬 Linux Environment Variables & Shell Config
-tags: [linux, environment-variables, bashrc, path, aliases]
-aliases: [Linux PATH, bashrc, Environment Variables]
+title: " Linux Environment Variables & Shell Config"
+tags:
+  - linux
+  - environment-variables
+  - bashrc
+  - path
+  - aliases
+aliases:
+  - Linux PATH
+  - bashrc
+  - Environment Variables
 status: evergreen
 ---
 
-# 🧬 Linux Environment Variables & Shell Config
+#  Linux Environment Variables & Shell Config
 
 ## 🧠 What this note covers
 

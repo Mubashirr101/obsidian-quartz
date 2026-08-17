@@ -1,11 +1,21 @@
 ---
-title: 💽 Linux Disk & Storage Management
-tags: [linux, disk, storage, mount, partitions, df, du]
-aliases: [Linux Mounting, Linux df du, Linux Partitions]
+title: Linux Disk & Storage Management
+tags:
+  - linux
+  - disk
+  - storage
+  - mount
+  - partitions
+  - df
+  - du
+aliases:
+  - Linux Mounting
+  - Linux df du
+  - Linux Partitions
 status: evergreen
 ---
 
-# 💽 Linux Disk & Storage Management
+#  Linux Disk & Storage Management
 
 ## 🧠 What this note covers
 

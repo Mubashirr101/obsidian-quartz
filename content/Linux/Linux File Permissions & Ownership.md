@@ -1,11 +1,19 @@
 ---
-title: 🔐 Linux File Permissions & Ownership
-tags: [linux, permissions, chmod, chown, security]
-aliases: [chmod, chown, Linux Permissions]
+title: Linux File Permissions & Ownership
+tags:
+  - linux
+  - permissions
+  - chmod
+  - chown
+  - security
+aliases:
+  - chmod
+  - chown
+  - Linux Permissions
 status: evergreen
 ---
 
-# 🔐 Linux File Permissions & Ownership
+#  Linux File Permissions & Ownership
 
 ## 🧠 What this note covers
 

@@ -1,11 +1,19 @@
 ---
-title: ⏰ Linux Cron & Task Scheduling
-tags: [linux, cron, crontab, task-scheduling, automation]
-aliases: [crontab, Linux cron jobs, at command]
+title: Linux Cron & Task Scheduling
+tags:
+  - linux
+  - cron
+  - crontab
+  - task-scheduling
+  - automation
+aliases:
+  - crontab
+  - Linux cron jobs
+  - at command
 status: evergreen
 ---
 
-# ⏰ Linux Cron & Task Scheduling
+#  Linux Cron & Task Scheduling
 
 ## 🧠 What this note covers
 

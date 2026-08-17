@@ -1,11 +1,17 @@
 ---
-title: 🗺️ Linux Filesystem Hierarchy
-tags: [linux, filesystem, fhs, directory-structure]
-aliases: [FHS, Linux Directory Structure]
+title: Linux Filesystem Hierarchy
+tags:
+  - linux
+  - filesystem
+  - fhs
+  - directory-structure
+aliases:
+  - FHS
+  - Linux Directory Structure
 status: evergreen
 ---
 
-# 🗺️ Linux Filesystem Hierarchy
+#  Linux Filesystem Hierarchy
 
 ## 🧠 What this note covers
 

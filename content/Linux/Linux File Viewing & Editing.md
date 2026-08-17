@@ -1,11 +1,20 @@
 ---
-title: 📖 Linux File Viewing & Editing
-tags: [linux, terminal, vim, nano, cat, less]
-aliases: [Linux Text Editors, Vim Basics, Nano Basics]
+title: Linux File Viewing & Editing
+tags:
+  - linux
+  - terminal
+  - vim
+  - nano
+  - cat
+  - less
+aliases:
+  - Linux Text Editors
+  - Vim Basics
+  - Nano Basics
 status: evergreen
 ---
 
-# 📖 Linux File Viewing & Editing
+#  Linux File Viewing & Editing
 
 ## 🧠 What this note covers
 

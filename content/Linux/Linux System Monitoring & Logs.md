@@ -1,11 +1,20 @@
 ---
-title: 📈 Linux System Monitoring & Logs
-tags: [linux, monitoring, logs, dmesg, var-log, system-health]
-aliases: [Linux Logs, var log, dmesg]
+title: Linux System Monitoring & Logs
+tags:
+  - linux
+  - monitoring
+  - logs
+  - dmesg
+  - var-log
+  - system-health
+aliases:
+  - Linux Logs
+  - var log
+  - dmesg
 status: evergreen
 ---
 
-# 📈 Linux System Monitoring & Logs
+# Linux System Monitoring & Logs
 
 ## 🧠 What this note covers
 

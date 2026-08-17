@@ -1,11 +1,20 @@
 ---
-title: ⚙️ Linux Process Management
-tags: [linux, process, ps, top, kill, jobs]
-aliases: [Linux Processes, ps command, kill command]
+title: Linux Process Management
+tags:
+  - linux
+  - process
+  - ps
+  - top
+  - kill
+  - jobs
+aliases:
+  - Linux Processes
+  - ps command
+  - kill command
 status: evergreen
 ---
 
-# ⚙️ Linux Process Management
+#  Linux Process Management
 
 ## 🧠 What this note covers
 
