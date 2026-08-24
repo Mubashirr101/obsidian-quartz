@@ -141,6 +141,7 @@ s.to_list()
 s.to_dict()
 s.to_frame(name="col")    # convert Series -> single-column DataFrame
 s.to_numpy()
+pd.to_numeric(s, errors="coerce")
 ```
 
 ---
