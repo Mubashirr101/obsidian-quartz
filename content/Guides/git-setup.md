@@ -744,7 +744,38 @@ git filter-repo --path big-file.zip --invert-paths
 > - [ ] Tag stable releases with annotated tags
 
 ---
+## 18. Restore to an older commit
 
+
+  
+
+Here are the two ways to fix this, either entirely in the browser, or with a quick temporary clone.
+
+  
+
+**Method 1: The "No Terminal" Web UI Trick (Recommended)**
+
+This method creates a new branch from your 5-year-old commit, makes it the default, and deletes the corrupted one.
+1. Open your repository on GitHub and click on the **Commits** link (usually right above the file list, showing the commit count).
+2. Scroll down to the last "good" commit from 5 years ago.
+3. Click the **`< >` (View at this point in history)** button on the right side of that specific commit.
+ 
+4. Click the branch dropdown button in the top left (it will currently show the commit hash instead of a branch name).
+5. Type a new branch name (e.g., `restored-branch`) and click **Create branch: restored-branch from '...'**.
+6. Go to your repository **Settings**, click on **Default branch** (or just **Branches** in the left sidebar).
+7. Under the "Default branch" section, click the **switch arrows icon** (⇄) and change the default branch to your new `restored-branch`. Update it.
+8. Go back to your main repository page, click on **Branches** (next to the branch dropdown).
+9. Delete the original `main` (or `master`) branch that contains the recent unwanted commits by clicking the trash can icon next to it.
+10. Click the pencil icon next to `restored-branch` and rename it back to `main` (or `master`).
+
+**Method 2: The Quick Terminal Fix**
+
+If you prefer to just run a few commands, you can temporarily clone it, rewind the history, and push it back up.
+1. **Clone the repo:** Run `git clone <your-repo-url>` in your terminal and `cd` into the folder.
+2. **Find the old commit:** Run `git log --oneline` and copy the hash of the 5-year-old commit.
+3. **Wipe the new commits:** Run `git reset --hard <old-commit-hash>`. This completely rewinds the folder to that exact moment in time.
+4. **Force push to GitHub:** Run `git push origin main --force` (replace `main` with `master` if it's an older repo).
+5. **Delete the local folder:** You can now safely delete the folder from your computer if you don't want to keep it.
 ## 🔗 Related in LORE
 
 - [[pandas|Pandas Reference]]

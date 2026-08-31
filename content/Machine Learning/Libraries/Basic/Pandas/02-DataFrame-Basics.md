@@ -50,6 +50,7 @@ df = pd.DataFrame(columns=["a", "b", "c"])
 ## Inspecting a DataFrame
 
 ```python
+display(df) # displays the dataframe
 df.head(n=5)          # first n rows
 df.tail(n=5)           # last n rows
 df.sample(n=5)         # random n rows
