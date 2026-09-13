@@ -38,6 +38,16 @@ status: evergreen
 - [[#17 Best Practice Checklist]]
 
 ---
+## 0. Quick git setup
+	
+	
+	git remote add origin https://github.com/username/reponame
+	git branch -M main
+	git add .
+	git commit -m 'message'
+	git push -u origin main
+	
+	
 
 ## 1. Installation
 
